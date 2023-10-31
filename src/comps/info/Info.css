@@ -1,0 +1,16 @@
+.main-info-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.picofme {
+
+    height: 300px;
+    border-radius: 100px;
+}
+
+.item-1 {
+    grid-row-start: 1;
+}
