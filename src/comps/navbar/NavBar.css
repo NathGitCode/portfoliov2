@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-left {
+    padding-left: 10vw;
+}
+
+.nav-bar-right {
+    padding-right: 10vw;
+}
+
+.nav-bar-right a {
+    text-decoration: none;
+    padding-right: 5px;
+}
