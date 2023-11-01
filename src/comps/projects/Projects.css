@@ -3,27 +3,21 @@
     grid-template-columns: auto auto;
     gap: 15px;
     justify-content: center;
-    border: 1px solid red;
+    row-gap: 5%;
 }
 
 
 .proj-item-1 {
-    border: 1px solid red;
-
     text-align: left;
     width: 45vw;
 }
 
 .proj-item-2 {
-    border: 1px solid red;
-
     text-align: left;
     width: 45vw;
 }
 
 .proj-item-3 {
-    border: 1px solid red;
-
     text-align: left;
     width: 45vw;
 }
@@ -32,20 +26,17 @@
     height: 45vh;
     width: 45vw;
     grid-row-start: 1;
-    border: 1px solid red;
 }
 
 .cats4lyf {
     height: 45vh;
     width: 45vw;
-    border: 1px solid red;
 }
 
 .backend {
     height: 45vh;
     width: 45vw;
     grid-row-start: 3;
-    border: 1px solid red;
 }
 
 .projheaders {
@@ -63,33 +54,40 @@
     padding-left: 10px;
 }
 
-.tech-stack-used {
+.stackused {
     display: flex;
+    color: coral;
+    gap: 15px;
 }
 
-.tech-stack-used h6 {
-    padding-right: 15px;
-    color: coral;
-}
 
 .gitproj {
     display: flex;
     margin: 15px;
     align-items: center;
+    transition: .2s
 }
 
 .demoproj {
     display: flex;
     margin: 15px;
     align-items: center;
+    transition: .2s;
 }
 
 .git-live {
     display: flex;
-    justify-content: center;
 }
 
 .git-live a {
     text-decoration: none;
     color: black;
+}
+
+.gitproj:hover {
+    transform: scale(1.2);
+}
+
+.demoproj:hover {
+    transform: scale(1.2);
 }

@@ -2,18 +2,15 @@
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    border: 1px solid red;
     margin: 25vh;
 }
 
 .picofme {
-    border: 1px solid red;
     height: 300px;
     border-radius: 100px;
 }
 
 .item-1 {
-    border: 1px solid red;
     grid-row-start: 1;
     text-align: left;
     width: 50vw;
