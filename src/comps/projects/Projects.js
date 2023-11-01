@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <header className="projheaders">
-        <h6>PORTFOLIO</h6>
+        <h4>PORTFOLIO</h4>
         <h3>Three projects, some are WIP</h3>
       </header>
       <div id="projects" className="projects-container">
