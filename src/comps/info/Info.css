@@ -3,6 +3,7 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     border: 1px solid red;
+    margin: 25vh;
 }
 
 .picofme {
@@ -19,9 +20,16 @@
 }
 
 .tech-stack {
+    padding-top: 100px;
     display: flex;
     align-items: center;
+    font-size: 35px;
 
+}
+
+.tech-stack img {
+    height: 25px;
+    padding-left: 10px;
 }
 
 

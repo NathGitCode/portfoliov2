@@ -1,0 +1,38 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    justify-content: center;
+    border: 1px solid red;
+    width: 60vw;
+}
+
+.contact-header h6 {
+    color: brown;
+}
+
+.address {
+    text-align: left;
+    border: 1px solid red;
+    grid-row-start: 3;
+}
+
+.email {
+    text-align: left;
+    border: 1px solid red;
+    grid-row-start: 3;
+}
+
+.phone {
+    text-align: left;
+    border: 1px solid red;
+    grid-row-start: 3;
+}
+
+.contact-header {
+    margin-top: 5vh;
+    margin-left: 9vw;
+    text-align: left;
+    border: 1px solid red;
+
+}

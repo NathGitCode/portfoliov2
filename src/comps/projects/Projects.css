@@ -1,0 +1,59 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+
+.proj-item-1 {
+    border: 1px solid red;
+
+    text-align: left;
+    width: 45vw;
+}
+
+.proj-item-2 {
+    border: 1px solid red;
+
+    text-align: left;
+    width: 45vw;
+}
+
+.proj-item-3 {
+    border: 1px solid red;
+
+    text-align: left;
+    width: 45vw;
+}
+
+.todolist {
+    height: 45vh;
+    width: 45vw;
+    grid-row-start: 1;
+    border: 1px solid red;
+}
+
+.cats4lyf {
+    height: 45vh;
+    width: 45vw;
+    border: 1px solid red;
+}
+
+.backend {
+    height: 45vh;
+    width: 45vw;
+    grid-row-start: 3;
+    border: 1px solid red;
+}
+
+.projheaders {
+    padding-left: 10vw;
+    text-align: left;
+}
+
+
+.projheaders h6 {
+    color: brown;
+}

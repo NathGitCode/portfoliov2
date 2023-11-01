@@ -8,10 +8,18 @@ const NavBar = () => {
         <h6>NathGitCode</h6>
       </div>
       <div className="nav-bar-right">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+        <a id="homeanchor" href="#home">
+          Home
+        </a>
+        <a id="aboutanchor" href="#about">
+          About
+        </a>
+        <a id="projectsanchor" href="#projects">
+          Projects
+        </a>
+        <a id="contactanchor" href="#contact">
+          Contact
+        </a>
       </div>
     </nav>
   );
