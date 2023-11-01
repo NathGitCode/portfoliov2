@@ -6,11 +6,36 @@
 }
 
 .picofme {
-
+    border: 1px solid red;
     height: 300px;
     border-radius: 100px;
 }
 
 .item-1 {
+    border: 1px solid red;
     grid-row-start: 1;
+    text-align: left;
+    width: 50vw;
+}
+
+.tech-stack {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.socials img {
+    height: 30px;
+    padding-right: 10px;
+    transition: .2s;
+}
+
+#linkedin:hover {
+    transform: scale(1.2);
+}
+
+#github:hover {
+    transform: scale(1.2);
+
 }

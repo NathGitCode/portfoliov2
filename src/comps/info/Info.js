@@ -1,6 +1,8 @@
 import React from "react";
 import "./Info.css";
 import piceofme from "./picofme.png";
+import linkedin from "./fi-xnsuxl-linkedin.svg";
+import github from "./github-mark.svg";
 
 const Info = () => {
   return (
@@ -15,6 +17,22 @@ const Info = () => {
             in the tech community
           </p>
         </section>
+        <div className="socials">
+          <a
+            href="https://www.linkedin.com/in/nathan-stringer-082852273/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img id="linkedin" src={linkedin} alt="linkedin"></img>
+          </a>
+          <a
+            href="https://github.com/NathGitCode?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img id="github" src={github} alt="github"></img>
+          </a>
+        </div>
         <div className="tech-stack">
           <h6>Tech Stack |</h6>
           <p>HTML5</p>
