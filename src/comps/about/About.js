@@ -4,7 +4,7 @@ import deskpic from "./Desk-Tidiness-LR.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="about-container">
+    <div className="about-container">
       <img className="pic" src={deskpic} alt="deskpic"></img>
       <div className="about-items-1">
         <header>
@@ -12,7 +12,7 @@ const About = () => {
           <h3 id="subhead">Junior Full Stack Software Developer</h3>
         </header>
         <section className="aboutme-info">
-          <p>
+          <p id="proj">
             Hi, thanks for visiting my portfolio. I am a Junior Full Stack Dev
             who prides himself in creating and maintaining high quality websites
             and applications with smooth user interactions. I have worked in

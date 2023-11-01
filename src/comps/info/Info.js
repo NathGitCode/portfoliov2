@@ -39,7 +39,7 @@ const Info = () => {
             <img id="github" src={github} alt="github"></img>
           </a>
         </div>
-        <div className="tech-stack">
+        <div id="techanchor" className="tech-stack">
           <h6>Tech Stack |</h6>
           <img src={html5svg} alt="html5"></img>
           <img src={css} alt="css"></img>

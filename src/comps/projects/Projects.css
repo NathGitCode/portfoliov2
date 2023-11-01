@@ -57,3 +57,39 @@
 .projheaders h6 {
     color: brown;
 }
+
+.git-live img {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.tech-stack-used {
+    display: flex;
+}
+
+.tech-stack-used h6 {
+    padding-right: 15px;
+    color: coral;
+}
+
+.gitproj {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.demoproj {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.git-live {
+    display: flex;
+    justify-content: center;
+}
+
+.git-live a {
+    text-decoration: none;
+    color: black;
+}
