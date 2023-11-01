@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&family=Oswald&family=Playpen+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&family=Oswald&family=Playpen+Sans&family=Roboto&family=Roboto+Mono&display=swap');
 
 
-body {
+/* body {
   margin: 0;
   font-family: 'Hind', sans-serif;
   font-family: 'Montserrat', sans-serif;
@@ -10,4 +11,16 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background-color: whitesmoke;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /* background-color: whitesmoke; */
+  background-color: rgb(255, 234, 234);
 }
