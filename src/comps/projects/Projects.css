@@ -1,9 +1,9 @@
 .projects-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 15px;
     justify-content: center;
-    row-gap: 5%;
+    row-gap: 50px;
+    column-gap: 25px;
 }
 
 

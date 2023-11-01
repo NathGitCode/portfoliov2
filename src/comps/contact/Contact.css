@@ -36,6 +36,11 @@
     transition: .2s;
 }
 
+.contact-email a {
+    color: black;
+    text-decoration: none;
+}
+
 .contact-email:hover {
     transform: scale(1.1);
 }
