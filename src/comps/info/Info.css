@@ -2,15 +2,45 @@
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    border: 1px solid red;
+    margin: 25vh;
 }
 
 .picofme {
-
     height: 300px;
     border-radius: 100px;
 }
 
 .item-1 {
     grid-row-start: 1;
+    text-align: left;
+    width: 50vw;
+}
+
+.tech-stack {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.tech-stack img {
+    height: 25px;
+    padding-left: 10px;
+}
+
+
+.socials img {
+    height: 30px;
+    padding-right: 10px;
+    transition: .2s;
+}
+
+#linkedin:hover {
+    transform: scale(1.2);
+}
+
+#github:hover {
+    transform: scale(1.2);
+
 }

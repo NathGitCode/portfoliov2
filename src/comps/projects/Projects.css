@@ -1,0 +1,93 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 25px;
+}
+
+
+.proj-item-1 {
+    text-align: left;
+    width: 45vw;
+}
+
+.proj-item-2 {
+    text-align: left;
+    width: 45vw;
+}
+
+.proj-item-3 {
+    text-align: left;
+    width: 45vw;
+}
+
+.todolist {
+    height: 45vh;
+    width: 45vw;
+    grid-row-start: 1;
+}
+
+.cats4lyf {
+    height: 45vh;
+    width: 45vw;
+}
+
+.backend {
+    height: 45vh;
+    width: 45vw;
+    grid-row-start: 3;
+}
+
+.projheaders {
+    padding-left: 10vw;
+    text-align: left;
+}
+
+
+.projheaders h6 {
+    color: brown;
+}
+
+.git-live img {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.stackused {
+    display: flex;
+    color: coral;
+    gap: 15px;
+}
+
+
+.gitproj {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    transition: .2s
+}
+
+.demoproj {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    transition: .2s;
+}
+
+.git-live {
+    display: flex;
+}
+
+.git-live a {
+    text-decoration: none;
+    color: black;
+}
+
+.gitproj:hover {
+    transform: scale(1.2);
+}
+
+.demoproj:hover {
+    transform: scale(1.2);
+}
