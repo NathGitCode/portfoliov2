@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+
+main div:first-child {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+main div:last-child {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.slide-in {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+}
