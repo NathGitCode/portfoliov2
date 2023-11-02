@@ -5,27 +5,50 @@
     position: sticky;
     top: 0;
     background-color: aliceblue;
+    z-index: 1;
+
 }
 
 .nav-bar-left {
     padding-left: 10vw;
 }
 
+
 .nav-bar-right {
     padding-right: 10vw;
+    display: flex;
+}
+
+.nav-bar-right li {
+    list-style: none;
 }
 
 .nav-bar-right a {
+    text-transform: capitalize;
     text-decoration: none;
-    padding-right: 10px;
+    font-weight: bold;
     color: black;
-}
-
-.hapc:hover {
-    transform: scale(1.2);
-}
-
-#aboutanchor {
+    padding: 10px 15px;
+    margin: 0 10px;
     position: relative;
-    padding-top: 100px
+    display: block;
+    overflow: hidden;
+}
+
+.nav-bar-right a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translatex(-100%);
+    border-top: 2px solid mediumaquamarine;
+    transition: 0.3s;
+    z-index: -1;
+    transform-origin: top left;
+}
+
+.nav-bar-right li:hover a::after {
+    transform: translatex(0);
 }

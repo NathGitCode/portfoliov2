@@ -44,3 +44,7 @@
     transform: scale(1.2);
 
 }
+
+.info-desc p {
+    font-size: 20px;
+}

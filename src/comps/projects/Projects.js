@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Projects.css";
 import todolist from "./todolist.png";
 import cats4lyf from "./cats4lyf.png";
@@ -7,8 +7,35 @@ import github from "../info/github-mark.svg";
 import external from "./512px-External_link_font_awesome.svg.png";
 
 const Projects = () => {
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsIntersecting(entry.isIntersecting);
+      },
+      { rootMargin: "-250px" }
+    );
+    console.log(isIntersecting);
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [isIntersecting]);
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.querySelectorAll("div").forEach((el) => {
+        el.classList.add("slide-in");
+      });
+    } else {
+      ref.current.querySelectorAll("div").forEach((el) => {
+        el.classList.remove("slide-in");
+      });
+    }
+  }, [isIntersecting]);
+
   return (
-    <>
+    <main ref={ref}>
       <header className="projheaders">
         <h4>PORTFOLIO</h4>
         <h3>Three projects, some are WIP</h3>
@@ -132,7 +159,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 

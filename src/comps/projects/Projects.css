@@ -4,6 +4,7 @@
     justify-content: center;
     row-gap: 50px;
     column-gap: 25px;
+    Transition: 2s;
 }
 
 
@@ -56,7 +57,7 @@
 
 .stackused {
     display: flex;
-    color: coral;
+    color: brown;
     gap: 15px;
 }
 

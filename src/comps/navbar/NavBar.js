@@ -5,14 +5,22 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="nav-bar-left">
-        <h6>NathGitCode</h6>
+        <h4>NathGitCode</h4>
       </div>
-      <div className="nav-bar-right">
-        <a href="#home">Home</a>
-        <a href="#techanchor">About</a>
-        <a href="#proj">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
+      <ul className="nav-bar-right">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#techanchor">About</a>
+        </li>
+        <li>
+          <a href="#proj">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
   );
 };
