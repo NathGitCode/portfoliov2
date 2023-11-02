@@ -3,6 +3,7 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     margin: 25vh;
+    transition: 2s;
 }
 
 .picofme {
