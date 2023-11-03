@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Projects.css";
-import todolist from "./todolist.png";
-import cats4lyf from "./cats4lyf.png";
-import backend from "./instaclone backend.png";
-import github from "../info/github-mark.svg";
-import external from "./512px-External_link_font_awesome.svg.png";
+import todolist from "./assets/todolist.png";
+import cats4lyf from "./assets/cats4lyf.png";
+import backend from "./assets/instaclone backend.png";
+import github from "../info/assets/github-mark.svg";
+import external from "./assets/512px-External_link_font_awesome.svg.png";
 
 const Projects = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);

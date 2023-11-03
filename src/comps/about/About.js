@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./About.css";
-import deskpic from "./Desk-Tidiness-LR.jpg";
+import deskpic from "./assets/Desk-Tidiness-LR.jpg";
 
 const About = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);

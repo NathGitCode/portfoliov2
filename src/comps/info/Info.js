@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Info.css";
-import piceofme from "./picofme.png";
-import linkedin from "./fi-xnsuxl-linkedin.svg";
-import github from "./github-mark.svg";
-import html5svg from "./512px-HTML5_Badge.svg (1).png";
-import javascript from "./3799-javascript.jpg";
-import css from "./CSS3_logo.svg.png";
-import reactimg from "./React-icon.svg.png";
-import node from "./node-js.svg";
-import mysql2 from "./mysql-ar21.svg";
+import piceofme from "./assets/picofme.png";
+import linkedin from "./assets/fi-xnsuxl-linkedin.svg";
+import github from "./assets/github-mark.svg";
+import html5svg from "./assets/512px-HTML5_Badge.svg (1).png";
+import javascript from "./assets/3799-javascript.jpg";
+import css from "./assets/CSS3_logo.svg.png";
+import reactimg from "./assets/React-icon.svg.png";
+import node from "./assets/node-js.svg";
+import mysql2 from "./assets/mysql-ar21.svg";
 
 const Info = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
