@@ -1,48 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import "./Projects.css";
-import todolist from "./assets/todolist.png";
+import frontend from "./assets/instaclone frontend.png";
 import cats4lyf from "./assets/cats4lyf.png";
 import backend from "./assets/instaclone backend.png";
 import github from "../info/assets/github-mark.svg";
 import external from "./assets/512px-External_link_font_awesome.svg.png";
 
 const Projects = () => {
-  const [isIntersecting, setIsIntersecting] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsIntersecting(entry.isIntersecting);
-      },
-      { rootMargin: "-250px" }
-    );
-    console.log(isIntersecting);
-    observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, [isIntersecting]);
-
-  useEffect(() => {
-    if (isIntersecting) {
-      ref.current.querySelectorAll("div").forEach((el) => {
-        el.classList.add("slide-in");
-      });
-    } else {
-      ref.current.querySelectorAll("div").forEach((el) => {
-        el.classList.remove("slide-in");
-      });
-    }
-  }, [isIntersecting]);
-
   return (
-    <main ref={ref}>
+    <>
       <header className="projheaders">
         <h4>PORTFOLIO</h4>
         <h3>Three projects, some are WIP</h3>
       </header>
       <div id="projects" className="projects-container">
         {/* instagram thing */}
-        <img className="todolist" src={todolist} alt="todolist"></img>
+        <img className="frontend" src={frontend} alt="frontend"></img>
         <div className="proj-item-1">
           <h4>Instagram like website</h4>
           <p>
@@ -159,7 +132,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </main>
+    </>
   );
 };
 
