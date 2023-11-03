@@ -30,6 +30,10 @@
     padding-left: 10px;
 }
 
+.tech-stack #sql {
+    height: 35px;
+    padding-left: 5px;
+}
 
 .socials img {
     height: 30px;

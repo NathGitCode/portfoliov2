@@ -7,8 +7,8 @@ import html5svg from "./assets/512px-HTML5_Badge.svg (1).png";
 import javascript from "./assets/3799-javascript.jpg";
 import css from "./assets/CSS3_logo.svg.png";
 import reactimg from "./assets/React-icon.svg.png";
-import node from "./assets/node-js.svg";
 import mysql2 from "./assets/mysql-ar21.svg";
+import nodepng from "./assets/nodejs-logo-FBE122E377-seeklogo.com.png";
 
 const Info = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -39,7 +39,7 @@ const Info = () => {
 
   return (
     <main ref={ref}>
-      <div id="home" className="main-info-container">
+      <div className="main-info-container">
         <div className="item-1">
           <header className="info-header">
             <h1>Full Stack Software Developer</h1>
@@ -72,8 +72,8 @@ const Info = () => {
             <img src={css} alt="css"></img>
             <img src={javascript} alt="javascript"></img>
             <img src={reactimg} alt="react"></img>
-            <img src={node} alt="node"></img>
-            <img src={mysql2} alt="mysql"></img>
+            <img src={nodepng} alt="node"></img>
+            <img id="sql" src={mysql2} alt="mysql"></img>
           </div>
         </div>
 

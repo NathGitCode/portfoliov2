@@ -11,33 +11,39 @@
 .proj-item-1 {
     text-align: left;
     width: 45vw;
+
 }
 
 .proj-item-2 {
     text-align: left;
     width: 45vw;
+
 }
 
 .proj-item-3 {
     text-align: left;
     width: 45vw;
+
 }
 
-.todolist {
+.frontend {
     height: 45vh;
     width: 45vw;
     grid-row-start: 1;
+    border-radius: 25px;
 }
 
 .cats4lyf {
     height: 45vh;
     width: 45vw;
+    border-radius: 25px;
 }
 
 .backend {
     height: 45vh;
     width: 45vw;
     grid-row-start: 3;
+    border-radius: 25px;
 }
 
 .projheaders {
