@@ -9,12 +9,6 @@
 
 }
 
-.nav-bar-left {
-    padding-left: 10vw;
-    color: black;
-}
-
-
 .nav-bar-right {
     padding-right: 10vw;
     display: flex;
@@ -43,7 +37,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    transform: translatex(-100%);
+    transform: translateX(-100%);
     border-top: 2px solid mediumaquamarine;
     transition: 0.3s;
     z-index: -1;
@@ -51,16 +45,21 @@
 }
 
 .nav-bar-right li:hover a::after {
-    transform: translatex(0);
+    transform: translateX(0);
+}
+
+.nav-bar-left {
+    padding-left: 10vw;
+    margin-top: -7vh;
 }
 
 .toggle-container {
     position: absolute;
-    left: 2em;
 }
 
 .toggle {
     visibility: hidden;
+
 }
 
 .toggle+label {
@@ -76,7 +75,7 @@
     height: 1em;
     width: 2em;
     border-radius: 1em;
-    background-color: blue;
+    background-color: rgb(58, 58, 94);
     margin-right: 0.5em;
     transition: background-color 250ms ease-in-out;
 }
@@ -86,7 +85,7 @@
     height: 0.8em;
     width: 0.8em;
     border-radius: 1em;
-    background-color: pink;
+    background-color: black;
     position: absolute;
     left: 0.2em;
     transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;

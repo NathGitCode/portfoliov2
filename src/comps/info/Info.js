@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Info.css";
 import piceofme from "./assets/picofme.png";
-import linkedin from "./assets/fi-xnsuxl-linkedin.svg";
-import github from "./assets/github-mark.svg";
 import html5svg from "./assets/512px-HTML5_Badge.svg (1).png";
 import javascript from "./assets/3799-javascript.jpg";
 import css from "./assets/CSS3_logo.svg.png";
 import reactimg from "./assets/React-icon.svg.png";
 import mysql2 from "./assets/mysql-ar21.svg";
 import nodepng from "./assets/nodejs-logo-FBE122E377-seeklogo.com.png";
+import { ReactComponent as Icon } from "./assets/github-icon-1-logo.svg";
+import { ReactComponent as LinkedIn } from "./assets/linkedin.svg";
 
 const Info = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -56,14 +56,14 @@ const Info = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img id="linkedin" src={linkedin} alt="linkedin"></img>
+              <LinkedIn className="iconLn" />
             </a>
             <a
               href="https://github.com/NathGitCode?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
-              <img id="github" src={github} alt="github"></img>
+              <Icon className="icon" />
             </a>
           </div>
           <div id="techanchor" className="tech-stack">

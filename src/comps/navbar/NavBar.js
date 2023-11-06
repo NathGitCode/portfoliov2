@@ -5,16 +5,15 @@ const NavBar = ({ setIsDark, isDark }) => {
   return (
     <nav className="navbar">
       <div className="nav-bar-left">
-        <h4>NathGitCode</h4>
-      </div>
-      <div className="toggle-container">
-        <input
-          type="checkbox"
-          id="check"
-          className="toggle"
-          onChange={() => setIsDark(!isDark)}
-        />
-        <label htmlFor="check">Dark Mode</label>
+        <div className="toggle-container">
+          <input
+            type="checkbox"
+            id="check"
+            className="toggle"
+            onChange={() => setIsDark(!isDark)}
+          />
+          <label htmlFor="check">Dark mode</label>
+        </div>
       </div>
       <ul className="nav-bar-right">
         <li>

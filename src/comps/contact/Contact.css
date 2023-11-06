@@ -37,8 +37,8 @@
 }
 
 .contact-email a {
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 .contact-email:hover {

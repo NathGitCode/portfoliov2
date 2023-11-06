@@ -10,7 +10,6 @@ body {
   font-family: 'Playpen Sans', cursive;
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace;
-  /* background-color: whitesmoke; */
 
 }
 
@@ -22,4 +21,12 @@ body {
 [data-theme="dark"] {
   background-color: rgb(16, 15, 15);
   color: white;
+
+  .git-live a {
+    color: white;
+  }
+
+  .contact-email a {
+    color: white;
+  }
 }
