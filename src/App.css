@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background-color: var(background-color);
+  transition: background-color 250ms ease-in-out;
 }
+
 
 
 main div:first-child {

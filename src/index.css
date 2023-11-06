@@ -2,17 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&family=Oswald&family=Playpen+Sans&family=Roboto&family=Roboto+Mono&display=swap');
 
 
-/* body {
-  margin: 0;
-  font-family: 'Hind', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Playpen Sans', cursive;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  background-color: whitesmoke;
-} */
-
 body {
   margin: 0;
   font-family: 'Hind', sans-serif;
@@ -22,5 +11,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace;
   /* background-color: whitesmoke; */
+
+}
+
+:root {
   background-color: rgb(245, 238, 238);
+  color: black
+}
+
+[data-theme="dark"] {
+  background-color: rgb(16, 15, 15);
+  color: white;
 }

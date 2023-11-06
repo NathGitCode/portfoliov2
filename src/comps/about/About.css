@@ -1,5 +1,5 @@
 .pic {
-    height: 300px;
+    height: 20vw;
     grid-row-start: 1;
     margin-right: 20px;
 }
@@ -14,11 +14,13 @@
 
 #aboutme {
     color: brown;
+    text-align: left;
 }
 
 #subhead {
     text-align: left;
 }
+
 
 .aboutme-info {
     text-align: left;

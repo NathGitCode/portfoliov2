@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="proj-item-1">
           <h4>Instagram like website</h4>
           <p>
-            Similair to Instagram where you can share photos with other users
+            Similar to Instagram where you can share photos with other users
           </p>
           <h5>Features</h5>
           <ul>
@@ -62,7 +62,7 @@ const Projects = () => {
 
         {/* cats4lyf */}
         <div className="proj-item-2">
-          <h4>Cats Ecommerce</h4>
+          <h4>Cats E-commerce</h4>
           <p>Buy cats online utilizing random cats from an API</p>
           <h5>Features</h5>
           <ul>

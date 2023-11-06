@@ -1,11 +1,20 @@
 import React from "react";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar = ({ setIsDark, isDark }) => {
   return (
     <nav className="navbar">
       <div className="nav-bar-left">
         <h4>NathGitCode</h4>
+      </div>
+      <div className="toggle-container">
+        <input
+          type="checkbox"
+          id="check"
+          className="toggle"
+          onChange={() => setIsDark(!isDark)}
+        />
+        <label htmlFor="check">Dark Mode</label>
       </div>
       <ul className="nav-bar-right">
         <li>
