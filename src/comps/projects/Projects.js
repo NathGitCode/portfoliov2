@@ -3,8 +3,8 @@ import "./Projects.css";
 import frontend from "./assets/instaclone frontend.png";
 import cats4lyf from "./assets/cats4lyf.png";
 import backend from "./assets/instaclone backend.png";
-import github from "../info/assets/github-mark.svg";
-import external from "./assets/512px-External_link_font_awesome.svg.png";
+import { ReactComponent as Icon } from "../info/assets/github-icon-1-logo.svg";
+import { ReactComponent as ExternalIcon } from "./assets/external-link.svg";
 
 const Projects = () => {
   return (
@@ -35,9 +35,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="gitproj">
+              <div className="gitdemo">
                 <p className="projtext">Code</p>
-                <img src={github} alt="github"></img>
+                <Icon className="projicon" />
               </div>
             </a>
 
@@ -46,9 +46,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="demoproj">
+              <div className="gitdemo">
                 <p className="projtext">Live Demo</p>
-                <img src={external} alt="external"></img>
+                <ExternalIcon className="projicon" />
               </div>
             </a>
           </div>
@@ -77,9 +77,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="gitproj">
+              <div className="gitdemo">
                 <p className="projtext">Code</p>
-                <img src={github} alt="github"></img>
+                <Icon className="projicon" />
               </div>
             </a>
 
@@ -88,9 +88,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="demoproj">
+              <div className="gitdemo">
                 <p className="projtext">Live Demo</p>
-                <img src={external} alt="external"></img>
+                <ExternalIcon className="projicon" />
               </div>
             </a>
           </div>
@@ -119,9 +119,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="gitproj">
+              <div className="gitdemo">
                 <p className="projtext">Code</p>
-                <img src={github} alt="github"></img>
+                <Icon className="projicon" />
               </div>
             </a>
           </div>

@@ -5,31 +5,36 @@ const NavBar = ({ setIsDark, isDark }) => {
   return (
     <nav className="navbar">
       <div className="nav-bar-left">
-        <h4>NathGitCode</h4>
-      </div>
-      <div className="toggle-container">
-        <input
-          type="checkbox"
-          id="check"
-          className="toggle"
-          onChange={() => setIsDark(!isDark)}
-        />
-        <label htmlFor="check">Dark Mode</label>
-      </div>
-      <ul className="nav-bar-right">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#techanchor">About</a>
-        </li>
-        <li>
-          <a href="#proj">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+        <div className="toggle-container">
+          <input
+            type="checkbox"
+            id="check"
+            className="toggle"
+            onChange={() => setIsDark(!isDark)}
+          />
+          <label htmlFor="check">Dark mode</label>
+        </div>
+      </div>{" "}
+      <section className="nav-bar-right">
+        <div id="hamnav">
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger" />
+        </div>
+        <ul id="hamitems">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#techanchor">About</a>
+          </li>
+          <li>
+            <a href="#proj">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </section>
     </nav>
   );
 };

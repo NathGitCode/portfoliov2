@@ -4,7 +4,6 @@
     justify-content: center;
     row-gap: 50px;
     column-gap: 25px;
-    Transition: 2s;
 }
 
 
@@ -68,18 +67,13 @@
 }
 
 
-.gitproj {
-    display: flex;
-    margin: 15px;
-    align-items: center;
-    transition: .2s
-}
-
-.demoproj {
+.gitdemo {
     display: flex;
     margin: 15px;
     align-items: center;
     transition: .2s;
+    position: sticky;
+
 }
 
 .git-live {
@@ -88,12 +82,16 @@
 
 .git-live a {
     text-decoration: none;
+    color: black;
 }
 
-.gitproj:hover {
+.gitdemo:hover {
     transform: scale(1.2);
 }
 
-.demoproj:hover {
-    transform: scale(1.2);
+.projicon {
+    height: 3vh;
+    width: 3vw;
+    padding-left: 10px;
+    transition: .2s;
 }

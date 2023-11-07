@@ -1,8 +1,9 @@
 import React from "react";
 import "./Wip.css";
-import githublogo from "../info/assets/github-mark.svg";
-import external from "../projects/assets/512px-External_link_font_awesome.svg.png";
+
 import codingwip from "./assets/codeingwip.jpg";
+import { ReactComponent as Icon } from "../info/assets/github-icon-1-logo.svg";
+import { ReactComponent as ExternalIcon } from "../projects/assets/external-link.svg";
 
 const Wip = () => {
   return (
@@ -30,9 +31,9 @@ const Wip = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="gitproj">
-                <p className="projtext">Code</p>
-                <img src={githublogo} alt="githublogo"></img>
+              <div className="gitdemo">
+                <p className="projtext">Code </p>
+                <Icon className="projicon" />
               </div>
             </a>
             <a
@@ -40,9 +41,9 @@ const Wip = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="demoproj">
+              <div className="gitdemo">
                 <p className="projtext">Live Demo</p>
-                <img src={external} alt="external"></img>
+                <ExternalIcon className="projicon" />
               </div>
             </a>
           </div>

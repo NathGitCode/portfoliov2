@@ -35,21 +35,34 @@
     padding-left: 5px;
 }
 
-.socials img {
-    height: 30px;
-    padding-right: 10px;
-    transition: .2s;
-}
 
-#linkedin:hover {
+.icon:hover {
     transform: scale(1.2);
 }
 
-#github:hover {
+.iconLn:hover {
     transform: scale(1.2);
 
 }
 
 .info-desc p {
     font-size: 20px;
+}
+
+.icon {
+    height: 3vh;
+    width: 3vw;
+    padding-left: 10px;
+    transition: .2s;
+}
+
+.iconLn {
+    height: 3vh;
+    width: 3vw;
+    padding-right: 10px;
+    transition: .2s;
+}
+
+.socials {
+    display: flex;
 }
