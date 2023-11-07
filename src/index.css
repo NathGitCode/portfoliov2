@@ -29,4 +29,19 @@ body {
   .contact-email a {
     color: white;
   }
+
+  .projicon path {
+    fill: red;
+    transition: fill 250ms ease-in-out;
+  }
+
+  .icon path {
+    fill: red;
+    transition: fill 250ms ease-in-out;
+  }
+
+  .iconLn path {
+    fill: red;
+    transition: fill 250ms ease-in-out;
+  }
 }

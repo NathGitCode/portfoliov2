@@ -88,3 +88,10 @@
 .gitdemo:hover {
     transform: scale(1.2);
 }
+
+.projicon {
+    height: 3vh;
+    width: 3vw;
+    padding-left: 10px;
+    transition: .2s;
+}

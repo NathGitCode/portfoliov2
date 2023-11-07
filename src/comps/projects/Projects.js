@@ -37,7 +37,7 @@ const Projects = () => {
             >
               <div className="gitdemo">
                 <p className="projtext">Code</p>
-                <Icon className="icon" />
+                <Icon className="projicon" />
               </div>
             </a>
 
@@ -48,7 +48,7 @@ const Projects = () => {
             >
               <div className="gitdemo">
                 <p className="projtext">Live Demo</p>
-                <ExternalIcon className="icon" />
+                <ExternalIcon className="projicon" />
               </div>
             </a>
           </div>
@@ -79,7 +79,7 @@ const Projects = () => {
             >
               <div className="gitdemo">
                 <p className="projtext">Code</p>
-                <Icon className="icon" />
+                <Icon className="projicon" />
               </div>
             </a>
 
@@ -90,7 +90,7 @@ const Projects = () => {
             >
               <div className="gitdemo">
                 <p className="projtext">Live Demo</p>
-                <ExternalIcon className="icon" />
+                <ExternalIcon className="projicon" />
               </div>
             </a>
           </div>
@@ -121,7 +121,7 @@ const Projects = () => {
             >
               <div className="gitdemo">
                 <p className="projtext">Code</p>
-                <Icon className="icon" />
+                <Icon className="projicon" />
               </div>
             </a>
           </div>

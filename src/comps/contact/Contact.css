@@ -1,9 +1,9 @@
 .contact-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 20px;
     justify-content: center;
-    width: 60vw;
+    width: 80vw;
 }
 
 .contact-header h4 {

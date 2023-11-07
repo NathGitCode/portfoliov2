@@ -6,12 +6,14 @@
     top: 0;
     background-color: aliceblue;
     z-index: 1;
+}
 
+#hamitems {
+    display: flex;
 }
 
 .nav-bar-right {
     padding-right: 10vw;
-    display: flex;
 }
 
 .nav-bar-right li {
@@ -26,7 +28,7 @@
     padding: 10px 15px;
     margin: 0 10px;
     position: relative;
-    display: block;
+    display: flex;
     overflow: hidden;
 }
 
@@ -93,4 +95,34 @@
 
 .toggle:checked+label::after {
     transform: translateX(100%);
+}
+
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+
+    #hamitems a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #hamnav label {
+        display: block;
+        font-size: 1.2em;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    #hamitems {
+        display: none;
+    }
+
+    #hamnav input:checked~#hamitems {
+        display: block;
+    }
 }

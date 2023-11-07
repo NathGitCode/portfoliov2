@@ -9,7 +9,7 @@ import Empty from "./comps/emptydiv/Empty";
 import Wip from "./comps/workingon/Wip";
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   return (
     <div className="App" data-theme={isDark ? "dark" : "light"}>
       <Empty />
