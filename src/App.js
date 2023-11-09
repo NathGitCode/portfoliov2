@@ -10,10 +10,16 @@ import Wip from "./comps/workingon/Wip";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
+  const [hamburger, setHamburger] = useState(false);
   return (
     <div className="App" data-theme={isDark ? "dark" : "light"}>
       <Empty />
-      <NavBar setIsDark={setIsDark} isDark={isDark} />
+      <NavBar
+        hamburger={hamburger}
+        setHamburger={setHamburger}
+        setIsDark={setIsDark}
+        isDark={isDark}
+      />
       <Info />
       <About />
       <Projects />

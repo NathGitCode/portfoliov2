@@ -1,7 +1,16 @@
 import React from "react";
 import "./NavBar.css";
 
-const NavBar = ({ setIsDark, isDark }) => {
+const NavBar = ({ setIsDark, isDark, hamburger, setHamburger }) => {
+  console.log(hamburger);
+  const handleBurger = () => {
+    if (hamburger === true) {
+      setHamburger(false);
+    }
+    if (hamburger === false) {
+      setHamburger(true);
+    }
+  };
   return (
     <nav className="navbar">
       <div className="nav-bar-left">
@@ -16,11 +25,7 @@ const NavBar = ({ setIsDark, isDark }) => {
         </div>
       </div>{" "}
       <section className="nav-bar-right">
-        <div id="hamnav">
-          <label for="hamburger">&#9776;</label>
-          <input type="checkbox" id="hamburger" />
-        </div>
-        <ul id="hamitems">
+        <ul id="navitems">
           <li>
             <a href="#home">Home</a>
           </li>
@@ -33,7 +38,28 @@ const NavBar = ({ setIsDark, isDark }) => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-        </ul>
+        </ul>{" "}
+        <div id="hamnav">
+          <div id="hamburgerBtn" onClick={() => handleBurger()}>
+            <div className={hamburger ? "changebar1" : "bar1"}></div>
+            <div className={hamburger ? "changebar2" : "bar2"}></div>
+            <div className={hamburger ? "changebar3" : "bar3"}></div>
+          </div>
+          <ul className={hamburger ? "hamitems" : "hamNo"}>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#techanchor">About</a>
+            </li>
+            <li>
+              <a href="#proj">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </nav>
   );
